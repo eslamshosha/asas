@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'FS-Albert-Arabic-Web';
+  src: url('../webfonts/fsalbert/FSAlbertArabicWeb-Light.woff2') format('woff2'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Light.woff') format('woff'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS-Albert-Arabic-Web';
+  src: url('../webfonts/fsalbert/FSAlbertArabicWeb-Regular.woff2') format('woff2'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Regular.woff') format('woff'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS-Albert-Arabic-Web';
+  src: url('../webfonts/fsalbert/FSAlbertArabicWeb-Thin.woff2') format('woff2'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Thin.woff') format('woff'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS-Albert-Arabic-Web';
+  src: url('../webfonts/fsalbert/FSAlbertArabicWeb-ExtraBold.woff2') format('woff2'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-ExtraBold.woff') format('woff'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FS-Albert-Arabic-Web';
+  src: url('../webfonts/fsalbert/FSAlbertArabicWeb-Bold.woff2') format('woff2'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Bold.woff') format('woff'),
+      url('../webfonts/fsalbert/FSAlbertArabicWeb-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+

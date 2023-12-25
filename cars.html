@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>arabt alnour</title>
+    <link rel="icon" href="images/fav.png" type="image/png" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="internal-page">
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- preloader -->
+    <!-- header section -->
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="nav-header">
+            <div class="logo-cont">
+              <figure class="img-logo">
+                <a href="index.html"
+                  ><img src="images/logo.png" class="img-fluid"
+                /></a>
+              </figure>
+              <figure class="second-logo">
+                <a href="index.html"
+                  ><img src="images/second-logo.png" class="img-fluid"
+                /></a>
+              </figure>
+            </div>
+            <div class="header-cont">
+              <div class="navgition">
+                <ul class="big-menu list-unstyled">
+                  <li>
+                    <a href="index.html"> الرئيسية </a>
+                  </li>
+                  <li>
+                    <a href="cars.html"> الأسطول </a>
+                  </li>
+                  <li>
+                    <a href="offers.html"> عروضنا </a>
+                  </li>
+                  <li class="mega-menu">
+                    <a href="service.html" class="btn-div chevron-down">
+                      خدماتنا
+                    </a>
+                    <ul class="cats-dispaly cats-div list-unstyled">
+                      <li>
+                        <a href="service.html"> خدماتنا </a>
+                      </li>
+                      <li>
+                        <a href="#"> خدماتنا </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="branches.html"> فروعنا </a>
+                  </li>
+                  <li>
+                    <a href="about.html"> من نحن </a>
+                  </li>
+                  <li>
+                    <a href="careers.html"> التوظيف </a>
+                  </li>
+                  <li>
+                    <a href="contact.html"> اتصل بنا </a>
+                  </li>
+                  <li>
+                    <a href="cars-en.html"> English</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="show-icons">
+                <button class="menu-bars fixall" id="menu-id">
+                  <span class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section     -->
+    <!-- breadcrumb section -->
+    <section class="breadcrumb-sec">
+      <div class="container">
+        <h2 class="page-head">الأسطول</h2>
+        <ol class="breadcrumb">
+          <li class="item-home">
+            <a class="bread-link bread-home" href="index.html">الرئيسية </a>
+          </li>
+          <li class="active item-23">
+            <span class="bread-current"> الأسطول</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- breadcrumb section -->
+    <section class="single-section">
+      <div class="container">
+        <div class="search-cont internal-search">
+          <h2 class="form-head wow fadeInDown" wow-data-delay="5s">
+            ابحث عن السيارة اللي تبغاها
+          </h2>
+          <div class="search-form">
+            <form action="" class="main-form">
+              <div class="form-group">
+                <label class="main-label">الموديل</label>
+                <select class="search-type">
+                  <option disabled selected hidden>اختر من القائمة</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="main-label">النوع</label>
+                <select class="search-type">
+                  <option disabled selected hidden>اختر من القائمة</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="main-label">السعر</label>
+                <select class="search-type">
+                  <option>من الأقل - الأعلى</option>
+                  <option>من الأقل - الأعلى</option>
+                  <option>من الأقل - الأعلى</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="main-label">نوع الإيجار</label>
+                <select class="search-type">
+                  <option disabled selected hidden>اختر من القائمة</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="form-btn-cont">
+                <button class="form-btn" type="submit">
+                  <i class="las la-search"></i>
+                  بحث
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="cars-cont">
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/01.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> كيا سبورتاج 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <span class="old-price">بدلًا من 300 ر.س/اليوم</span>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button
+                class="add-to-btn"
+                data-toggle="modal"
+                data-target="#rent-modal"
+              >
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/02.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> ألفا روميو تونال 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <span class="old-price">بدلًا من 300 ر.س/اليوم</span>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/03.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> تويوتا كراون 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <!-- <span class="old-price">بدلًا من 300 ر.س/اليوم</span> -->
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/01.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> كيا سبورتاج 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <span class="old-price">بدلًا من 300 ر.س/اليوم</span>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/02.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> ألفا روميو تونال 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <span class="old-price">بدلًا من 300 ر.س/اليوم</span>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/03.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> تويوتا كراون 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <!-- <span class="old-price">بدلًا من 300 ر.س/اليوم</span> -->
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/01.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> كيا سبورتاج 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <span class="old-price">بدلًا من 300 ر.س/اليوم</span>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/02.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> ألفا روميو تونال 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <span class="old-price">بدلًا من 300 ر.س/اليوم</span>
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-hover">
+              <a href="#!" class="product-img">
+                <figure class="product-figure loading-img">
+                  <img
+                    data-src="images/product/03.jpg"
+                    class="img-fluid lazy-img"
+                  />
+                </figure>
+              </a>
+              <span class="hint">عرض خاص</span>
+            </div>
+            <div class="product-content">
+              <a class="product-name" href="#!"> تويوتا كراون 2023 </a>
+              <div class="price-box">
+                <span class="new-price">200 ر.س/اليوم</span>
+                <!-- <span class="old-price">بدلًا من 300 ر.س/اليوم</span> -->
+              </div>
+            </div>
+            <div class="btn-cont">
+              <button class="add-to-btn" type="submit">
+                <span>استأجرها الآن</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="custom-pagention">
+          <a href="#"><i class="las la-angle-double-right"></i></a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <div>...</div>
+          <a href="#">9</a>
+          <a href="#">10</a>
+          <a href="#"><i class="las la-angle-double-left"></i></a>
+        </div> -->
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+      <figure class="footer-bg">
+        <img src="images/footer-bg.png" alt="bg" />
+      </figure>
+      <div class="container">
+        <div class="first-footer">
+          <div class="row">
+            <div class="col-md-4 col-xs-12">
+              <div class="footer-list">
+                <div class="nav-foot-cont">
+                  <h2 class="nav-foot-header foot-header">روابط سريعة</h2>
+                  <ul class="nav-foot nav-wrap list-unstyled">
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">الأسطول</a>
+                    </li>
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">عروضنا</a>
+                    </li>
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">خدماتنا</a>
+                    </li>
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">فروعنا</a>
+                    </li>
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">من نحن</a>
+                    </li>
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">التوظيف</a>
+                    </li>
+                    <li class="nav-foot-li">
+                      <a href="#" class="nav-foot-link">اتصل بنا</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <h2 class="nav-foot-header foot-header">معلومات التواصل</h2>
+              <div class="footer-info nav-foot">
+                <div class="footer-contact">
+                  <div class="contact-link">
+                    <i class="lab la-whatsapp"></i>
+                    <div class="contact-flex">
+                      <a href="#"> 0598220707 </a>
+                      <a href="#"> 0598407073 </a>
+                    </div>
+                  </div>
+                  <div class="contact-link">
+                    <i class="las la-phone"></i>
+                    <div class="contact-flex">
+                      <a href="tel:+0598220707"> 0598220707 </a>
+                      <a href="tel:+0598407073"> 0598407073 </a>
+                    </div>
+                  </div>
+                  <div class="contact-link">
+                    <i class="las la-envelope"></i>
+                    <div class="contact-flex">
+                      <a href="mailto:info@arabtelnour.com.sa">
+                        info@arabtelnour.com.sa
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="social">
+                  <a href="#" class="social-link telegram-social">
+                    <i class="lab la-telegram"></i>
+                  </a>
+                  <a href="#" class="social-link instagram-social">
+                    <i class="lab la-instagram"></i>
+                  </a>
+                  <a href="#" class="social-link youtube-social">
+                    <i class="lab la-youtube"></i>
+                  </a>
+                  <a href="#" class="social-link twitter-social">
+                    <i class="lab la-twitter"></i>
+                  </a>
+                  <a href="#" class="social-link facebook-social">
+                    <i class="lab la-facebook-f"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <div class="news-letter">
+                <form action="" method="post">
+                  <h3 class="news-header nav-foot-header foot-header">
+                    النشرة البريدية
+                  </h3>
+                  <div class="nav-foot">
+                    <span class="news-span">
+                      اشترك في القائمة البريدية ليصلك جديد عروضنا
+                    </span>
+                    <div class="newsletter-cont">
+                      <input
+                        type="email"
+                        value=""
+                        class="newsletter-input"
+                        placeholder="أدخل بريدك الإلكتروني"
+                      />
+                      <button type="submit" class="newsletter-button">
+                        <i class="las la-arrow-left"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy-footer">
+          <div class="copy-flex">
+            <div class="copy-right">© شركة عربة النور لتأجير السيارات 2023</div>
+            <span class="design-text">
+              صنع في
+              <a href="#"
+                ><img src="images/tasawk.png" alt="taswak" class="taswak-img"
+              /></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section -->
+    <div class="overlay-box"></div>
+    <!--fixed-whats-->
+    <a href="#" class="fixed-what">
+      <i class="lab la-whatsapp"></i>
+    </a>
+    <!--fixed-whats-->
+    <!-- arrow to top -->
+    <a class="arrow-top">
+      <i class="las la-arrow-up"></i>
+    </a>
+    <!-- arrow to top -->
+    <!-- Start rent Modal -->
+    <div class="modal fade rent-modal" id="rent-modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">طلب تأجير سيارة</h5>
+            <button type="button" class="close-modal" data-dismiss="modal">
+              <i class="las la-times"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <label class="main-label required">الاسم بالكامل</label>
+                <input type="text" class="form-input">
+              </div>
+              <div class="form-group">
+                <label class="main-label required">رقم الجوال</label>
+                <input type="tel" class="form-input">
+              </div>
+              <div class="form-group">
+                <label class="main-label required">البريد الإلكتروني</label>
+                <input type="email" class="form-input">
+              </div>
+              <div class="form-group">
+                <label class="main-label required">المدينة</label>
+                <select class="search-type">
+                  <option disabled selected hidden>اختر من القائمة</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+              <div class="form-group check-cont">
+                <label class="main-label required">تفضيلات التواصل</label>
+                <div class="check-group">
+                  <div class="check-width">
+                    <label class="check-label">
+                      <input type="checkbox" checked="checked" />
+                      <span class="check-text">مكالمة هاتفية</span>
+                      <span class="checkmark custom-checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="check-width">
+                    <label class="check-label">
+                      <input type="checkbox" />
+                      <span class="check-text">محادثة عبر واتس اب</span>
+                      <span class="checkmark custom-checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="check-width">
+                    <label class="check-label">
+                      <input type="checkbox" />
+                      <span class="check-text">رسالة بريد إلكتروني</span>
+                      <span class="checkmark custom-checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-cont">
+                <button type="button" class="form-btn">ارسال</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End rent Modal -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
