@@ -139,6 +139,52 @@ $(document).ready(function () {
       },
     },
   });
+    /************************************ post Sliders ************************************/
+
+    var thumbPostSwiper = new Swiper(".post-thumbs-slider .swiper-container", {
+      // loop: true,
+  
+      breakpoints: {
+        0: {
+          spaceBetween: 10,
+          slidesPerView: 4,
+        },
+        767: {
+          spaceBetween: 10,
+          slidesPerView: 4,
+        },
+        992: {
+          spaceBetween: 10,
+          slidesPerView: 4,
+        },
+        1199: {
+          spaceBetween: 10,
+          slidesPerView: 4,
+        },
+      },
+      on: {
+        init: function (swiper) {
+          lazyLoad();
+        },
+      },
+    });
+  
+    var mainPostSwiper = new Swiper(".post-main-slider .swiper-container", {
+      // loop: true,
+      spaceBetween: 15,
+      thumbs: {
+        swiper: thumbPostSwiper,
+      },
+      on: {
+        init: function (swiper) {
+          lazyLoad();
+        },
+      },
+      navigation: {
+        nextEl: ".post-main-slider .swiper-btn-next",
+        prevEl: ".post-main-slider .swiper-btn-prev",
+      },
+    });
   ////////////** footer transfer into accordion **//////////
 
   if ($(window).width() <= 767) {
