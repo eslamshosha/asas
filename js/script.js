@@ -185,6 +185,42 @@ $(document).ready(function () {
         prevEl: ".post-main-slider .swiper-btn-prev",
       },
     });
+
+    //news slider
+    var newsSlider = new Swiper(".news-slider .swiper-container", {
+      autoplay: true,
+      pagination: {
+        el: ".news-slider .swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".news-slider .swiper-btn-next",
+        prevEl: ".news-slider .swiper-btn-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        767: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        992: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1199: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+      on: {
+        init: function (swiper) {
+          lazyLoad();
+        },
+      },
+    });
   ////////////** footer transfer into accordion **//////////
 
   if ($(window).width() <= 767) {
