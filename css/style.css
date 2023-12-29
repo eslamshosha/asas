@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-color: var(--white-color);
   padding-top: 151.16px;
+  position: relative;
 }
 @media (max-width: 991px) {
   body {
@@ -24,6 +25,9 @@ body {
 img {
   image-rendering: -webkit-optimize-contrast;
   max-width: 100%;
+}
+a {
+  text-decoration: none;
 }
 /*style scroll bar*/
 /* width */
@@ -574,7 +578,10 @@ select {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.form-input ~ .select2-container .select2-selection--single {
+  background-color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+}
 .select2-container .select2-selection--single .select2-selection__rendered {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -618,7 +625,9 @@ select {
   overflow: hidden;
   z-index: 9;
 }
-
+.form-input ~ .select2-container .select2-dropdown {
+  background-color: #f5f5f5;
+}
 .select2-container .select2-search--dropdown {
   padding: 0 10px;
 }
@@ -1065,6 +1074,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   color: #b3b3b3;
+  text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 .contact-flex a:hover {
@@ -1097,6 +1107,10 @@ footer {
 .header-content .social {
   margin-bottom: 0;
 }
+.contact-info .social{
+  margin: 25px 0 0;
+}
+.contact-info .social-link,
 .header-content .social-link {
   color: var(--main-color);
   background-color: #f2f2f2;
@@ -1486,6 +1500,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   font-family: "FontAwesome";
   font-weight: 900;
   font-size: 10px;
+  padding-bottom: 4px;
 }
 .menu-item-has-children {
   position: relative;
@@ -2593,7 +2608,7 @@ html[dir="ltr"] .Navigate-ancor i {
   object-fit: cover;
   transition: all 0.3s ease-in-out;
 }
-.video-item:hover img{
+.video-item:hover img {
   transform: scale(1.05);
 }
 
@@ -2614,16 +2629,16 @@ html[dir="ltr"] .Navigate-ancor i {
   color: #ff0000;
   font-size: 60px;
 }
-.overlay-img img{
+.overlay-img img {
   width: 81px;
   height: 56px;
   max-width: 100%;
 }
-.video-section .post-cont{
+.video-section .post-cont {
   border-bottom: 1px solid #f2f2f2;
   margin-bottom: 70px;
 }
-.video-section .post-container{
+.video-section .post-container {
   margin: 0 auto 50px;
 }
 .news-slider {
@@ -2706,4 +2721,112 @@ html[dir="ltr"] .Navigate-ancor i {
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: var(--main-hover);
   opacity: 1;
+}
+/*terms-page*/
+.terms-cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  position: relative;
+}
+.terms-content {
+  padding-inline-end: 68px;
+}
+.terms-date {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--main-hover);
+  background-color: #daebec;
+  padding: 5px 15px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  display: inline-block;
+  /* width: max-content; */
+}
+.terms-head {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.terms-pargh {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-color);
+  margin-bottom: 35px;
+  text-align: justify;
+  line-height: 28px;
+}
+.terms-list-cont {
+  padding: 28px 25px 20px;
+  border: 2px solid #f2f2f2;
+  position: sticky;
+  top: 10px;
+}
+.terms-list-head {
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--main-hover);
+  margin-bottom: 18px;
+}
+.list-group-item {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-color);
+  border: none;
+  background-color: unset;
+  padding: 8px 0;
+  border-bottom: 1px solid #f2f2f2 !important;
+}
+.list-group-item:last-of-type {
+  border: none;
+}
+.list-group-item:hover,
+.list-group-item.active {
+  background-color: unset;
+  color: var(--main-hover);
+  margin: 0 !important;
+}
+.contact-title {
+  font-weight: 800;
+  font-size: 28px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+.contact-info .contact-head {
+  color: var(--main-color);
+}
+.contact-info .contact-flex,
+.contact-info .contact-flex a {
+  color: var(--main-color);
+}
+.contact-info .contact-flex a:hover{
+  color: var(--main-hover);
+}
+.contact-info .contact-link i{
+  color: var(--main-hover);
+  font-size: 20px;
+  width: 20px;
+  margin-inline-end: 15px;
+}
+.contact-info .contact-link{
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  .terms-cont {
+    display: block;
+  }
+  .terms-content {
+    padding: 0;
+  }
+  .terms-list {
+    display: none;
+  }
+  .contact-info{
+    margin-bottom: 40px;
+  }
+  .contact-info .social{
+    justify-content: flex-start;
+  }
 }
