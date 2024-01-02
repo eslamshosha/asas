@@ -1674,7 +1674,7 @@ html[dir="rtl"] .sub-menu li > a > i::before {
     box-shadow: none;
   }
   .sub-menu .sub-menu .sub-menu{
-    padding: 0 10px;
+    padding: 0 10px !important;
   }
   .cat-anchor:hover {
     color: var(--main-hover);
